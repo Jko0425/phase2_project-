@@ -15,3 +15,10 @@ The data was provided by the [Flatiron School](https://github.com/learn-co-curri
 
 ## Results/Analysis
 
+The data was separated according to their respective quarters and the average home price of each quarter was plotted. However, when observing the distribution of home prices, the data was severely skewed to the right. By taking the log of the prices, the data was normally distributed. The average of the log of prices was taken then plotted.
+![Changes in Price of Homes](https://github.com/Jko0425/phase2_project-/blob/5c8787703498fadcfc261bc43555931116032a9d/Graphs_Charts/Changes%20in%20Price%20of%20Homes.png)
+The graph shows an upward trend in the year of 2022. It seems that the housing market has recovered from 2021 where the price decreased consistently throughout the fiscal quarters. To investigate why there is an increase or decrease in the housing market, we can look at mortgage rates, stock markets, or specifically how COVID-19 affect the county. More data is needed to further explore these hypotheses. However, we can confidently conclude that the prices are increasing as of 2022.
+
+This graph contains data of homes that have a total of 8 rooms (bedrooms + bathrooms) in the second quarter of 2022. We are only looking at the most recent home sales because we are trying to derive a fair price for either the buyer or seller.
+![Q2 2022 Prices of 8 Room Houses](https://github.com/Jko0425/phase2_project-/blob/5c8787703498fadcfc261bc43555931116032a9d/Graphs_Charts/Q2%202022%20Prices%20of%208%20Room%20Houses.png)
+We can see how the price of 8-room homes change as a function of sqft of living space. We can dive further into this data and determine how each variables like `grade` or `condition` affects the price.
