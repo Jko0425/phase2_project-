@@ -22,3 +22,8 @@ The graph shows an upward trend in the year of 2022. It seems that the housing m
 This graph contains data of homes that have a total of 8 rooms (bedrooms + bathrooms) in the second quarter of 2022. We are only looking at the most recent home sales because we are trying to derive a fair price for either the buyer or seller.
 ![Q2 2022 Prices of 8 Room Houses](https://github.com/Jko0425/phase2_project-/blob/5c8787703498fadcfc261bc43555931116032a9d/Graphs_Charts/Q2%202022%20Prices%20of%208%20Room%20Houses.png)
 We can see how the price of 8-room homes change as a function of sqft of living space. We can dive further into this data and determine how each variables like `grade` or `condition` affects the price.
+
+To determine how each category affected the price, we held the other variables constant. When investigating how `grade` affected the price, we only looked at data where homes did not have a `waterfront`, `nuisance`, or `greenbelt`. We also set the `condition` to average and `view` to none. The results ultimately returns this formula:
+
+![Multivariable equation of the categorical values of grade](https://github.com/Jko0425/phase2_project-/blob/e2c171ff8f25911d8d93c9b4fed98eb073e77b9d/Graphs_Charts/Multivariable%20equation%20of%20the%20categorical%20values%20of%20grade.png)
+This formula can be used to determine a fair price of an 8-room home. Each of the coefficients have p values less than 0.05, and therefore are significant.
