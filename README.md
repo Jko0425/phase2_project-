@@ -27,3 +27,9 @@ To determine how each category affected the price, we held the other variables c
 
 ![Multivariable equation of the categorical values of grade](https://github.com/Jko0425/phase2_project-/blob/e2c171ff8f25911d8d93c9b4fed98eb073e77b9d/Graphs_Charts/Multivariable%20equation%20of%20the%20categorical%20values%20of%20grade.png)
 This formula can be used to determine a fair price of an 8-room home. Each of the coefficients have p values less than 0.05, and therefore are significant.
+
+## Conclusion
+We can determine the correct and fair price of homes for the future from these results:
+* __Housing market is on the upswing.__ The housing market seem to have recovered from the start of 2022. Therefore we can assume the price will follow a similar trend given nothing too substantial or deterimental happens in the economy.
+* __We can determine the price of a home according to its square feet given the total room.__ We have specifically investigated how homes with 8 rooms differ in price according to their square footage, but this can be applied to other homes given sufficient data.
+* __By keeping certain variables constant, we can see how other variables affect prices.__ A formula was derived that will allow us to calculate prices of homes depending on their `grade`. Formulas for other variables can be derived using the same method. The results for `grade` is posted as it had the greatest r-squared value.
