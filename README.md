@@ -6,12 +6,15 @@ Prices of homes are always fluctuating. And with many companies looking at homes
 
 ## Business Problem
 
-There are many variables that may affect the price of a home. For instance, houses closer to the water may have greater demand and therefore have higher prices than houses inland. To properly calculate these prices, we can isolate each variable in order to determine which variable is most influential. This can be done by keeping certain variables constant.
-Another problem may be looking at home prices in previous years. The housing market is similar to the stock market in that it changes through time. Although it may be useful to look at prices from previous years to predict trends, the prices of homes will be reactionary to the latest data.
+Investing in real estate can be risky, especially when there are many variables that may affect the price of a home. For instance, houses closer to the water may have greater demand and therefore have higher prices than houses inland. We need to find a way to properly isolate variables so that we can accurately predict housing prices and potentially maximize profits or minimize our losses.
 
 ## Data
 
 The data was provided by the [Flatiron School](https://github.com/learn-co-curriculum/dsc-phase-2-project-v2-5). It provideds details of homes in King County, Seattle. It contains homes sold/purchased between the years of 2021 and 2022. From the data, we can observe how price has changed throughout the years, and how each variable affects the price.
+
+## Methodology
+
+Firstly, we can see how the prices change according to time, especially in a post-COVID era. We can divide the sales of the homes according to their fiscal quarters. By taking the average prices of each quarter, we can plot the averages to observe the changes in price. We can also isolate each variable in order to determine which variable is most influential. To find the best model we need to other variables constant. In our analysis, we will only look at homes with 8 rooms. If the model returns insufficient metrics (i.e. low r-squared values), we can isolate more variables and observe the metrics of the price vs. the isolated variable given that homes have 8 rooms. Once these models are created and the metrics are calculated, we can potentially find the best route for our business.
 
 ## Results/Analysis
 
