@@ -14,7 +14,7 @@ The data was provided by the [Flatiron School](https://github.com/learn-co-curri
 
 ## Methodology
 
-Firstly, we can see how the prices change according to time, especially in a post-COVID era. We can divide the sales of the homes according to their fiscal quarters. By taking the average prices of each quarter, we can plot the averages to observe the changes in price. We can also isolate each variable in order to determine which variable is most influential. To find the best model we need to other variables constant. In our analysis, we will only look at homes with 8 rooms. If the model returns insufficient metrics (i.e. low r-squared values), we can isolate more variables and observe the metrics of the price vs. the isolated variable given that homes have 8 rooms. Once these models are created and the metrics are calculated, we can potentially find the best route for our business.
+Firstly, we can see how the prices change according to time, especially in a post-COVID era. We can divide the sales of the homes according to their fiscal quarters. By taking the average prices of each quarter, we can plot the averages to observe the changes in price. We can also isolate each variable in order to determine which variable is most influential. To find the best model, we need to keep other variables constant. In our analysis, we will only look at homes with 8 rooms. If the model returns insufficient metrics (i.e. low r-squared values), we can isolate more variables and observe the metrics of the price vs. the isolated variable given that the prices are of 8 room houses. Once these models are created and the metrics are calculated, we can potentially find the best model for our recommendations.
 
 ## Results/Analysis
 
