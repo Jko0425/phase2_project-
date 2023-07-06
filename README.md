@@ -6,7 +6,7 @@ Prices of homes are always fluctuating. And with many companies looking at homes
 
 ## Business Problem
 
-Investing in real estate can be risky, especially when there are many variables that may affect the price of a home. For instance, houses closer to the water may have greater demand and therefore have higher prices than houses inland. We need to find a way to properly isolate variables so that we can accurately predict housing prices and potentially maximize profits or minimize our losses.
+Investing in real estate can be risky, especially when there are many variables that may affect the price of a home. For instance, houses closer to the water may have greater demand and therefore have higher prices than houses inland. We need to find a way to properly isolate variables so that we can accurately predict housing prices and allow J.P. Morgan to potentially maximize profits or minimize their losses.
 
 ## Data
 
