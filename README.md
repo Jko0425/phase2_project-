@@ -28,9 +28,9 @@ Low z-scores indicate the averages were statistically significant.
 ![Changes in Price of Homes](https://github.com/Jko0425/phase2_project-/blob/5c8787703498fadcfc261bc43555931116032a9d/Graphs_Charts/Changes%20in%20Price%20of%20Homes.png)
 The graph shows an upward trend in the year of 2022. It seems that the housing market has recovered from 2021 where the price decreased consistently throughout the fiscal quarters. To investigate why there is an increase or decrease in the housing market, we can look at mortgage rates, stock markets, or specifically how COVID-19 affect the county. More data is needed to further explore these hypotheses. However, we can confidently conclude that the prices are increasing as of 2022.
 
-By separating the data according to their fiscal quarter, we found that homes with 8 total rooms (bedrooms + bathrooms) had a high correlation value while having an adequate number of data. The regression results of the filtered data was obtained:
+By separating the data according to their fiscal quarter, we found that homes with 8 total rooms (bedrooms + bathrooms) had a relatively high correlation value while having an adequate number of data. The regression results of the filtered data was obtained:
 <p align="center">
-  <img src="https://github.com/Jko0425/phase2_project-/blob/main/Graphs_Charts/Regression%20results%20of%20quarters.png" width=75% height=75%>
+  <img src="https://github.com/Jko0425/phase2_project-/blob/main/Graphs_Charts/Regression_results.png" width=75% height=75%>
 </p>
 
 The graph below contains data of 8 room homes in the second quarter of 2022. We are only looking at the most recent home sales because we do not want to over pay when purchasing, or overprice our homes as it can sit on the market without selling.
