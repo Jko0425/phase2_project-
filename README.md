@@ -55,5 +55,6 @@ We can determine the correct and fair prices of homes for the future from these 
 * __We can determine the price of a home according to its square feet given the total room.__ We have specifically investigated how homes with 8 rooms differ in price according to their square footage, but this can be applied to other homes given sufficient data.
 * __By keeping certain variables constant, we can see how other variables affect prices.__ A formula was derived that will allow us to calculate prices of homes depending on their `grade`. Formulas for other variables can be derived using the same method. The results for `grade` is posted as it had the greatest r-squared value.
 ### Recommendations
-* Seeing how the housing market has recovered from the recent pandemic, we can purchase homes in a bearish market and resell in the future.
+J.P. Morgan can follow these recommendations in an effort to maximize their profits:
+* By observing the changes in the coefficients of `sqft_living`, we see that the prices and time have a direct relationship. Assuming no catastrophic event that would affect the economy, investing in real estate would benefit J.P. Morgan.
 * We can also purchase homes with poor grades and renovate to a higher grade. Assuming the renovations are not too costly, our potential profit may be around $1.2 million.
